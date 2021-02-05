@@ -1,0 +1,10 @@
+/*Footer del sitio*/
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}

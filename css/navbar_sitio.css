@@ -1,0 +1,63 @@
+/*Definicion de los estilos de la plantilla base para el 
+contenido teorico del sitio. Estos estilos solo definien 
+las dimensiones, posiciones y acciones de los elementos.*/
+
+
+/*Menu del sitio web*/
+
+nav {
+    width: 100%;
+    padding: 0.5em;
+}
+
+nav ul {
+    justify-content: right;
+    display: flex;
+    padding: 0.5em;
+}
+
+nav ul .li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    margin: auto;
+    margin-right: 0.5em;
+}
+
+nav ul li:first-child {
+    flex: 1;
+}
+
+.button_Menu {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a img {
+    width: 96px;
+    height: 64px;
+}
+
+
+/*Elementos desplegables*/
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul li ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.button_Menu_des {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}

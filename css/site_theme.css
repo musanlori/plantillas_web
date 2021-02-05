@@ -1,0 +1,89 @@
+/*
+    Script encargado de manejar los temas para los elementos de la pagina
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /*Fuente instalada desde Google Font*/
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+/*Estilo de las barras de navegacion y de pie de pagina*/
+
+.style_Bars {
+    background-color: red;
+}
+
+
+/*Botones del menu de navegacion*/
+
+.style_buttons_menu {
+    background-color: red;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+
+.style_buttons_menu:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/*Contenedores principales*/
+
+.style_sections {
+    background-color: #F4F6F6;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.style_asides {
+    background-color: #F4F6F6;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.style_containers_in_aside {
+    border: 2px;
+    border-color: #000;
+    border-style: solid;
+}
+
+.style_footer {
+    color: white;
+}
+
+
+/*Estilos de textos y elementos internos de los contenedores*/
+
+.style_titles {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.style_subtitles {
+    font-size: 1.5em;
+    color: #566573;
+}
+
+.style_info {
+    color: #000;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.style_aside_a {
+    color: black;
+}
+
+.style_audio {
+    border: 2px;
+    border-color: #000;
+    border-style: solid;
+}
